@@ -5,7 +5,8 @@ function createPac() {
 
     pac.src = "img/pac.png";
     pac.onload = function(){
-        context.drawImage(pac,4,5,11,11,8,10,15,15);
+        context.drawImage(pac,4,5,11,11,11,20,30,30);
+
     }
 
 }

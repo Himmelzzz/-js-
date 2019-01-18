@@ -5,7 +5,7 @@ function createMap() {
     var map = new Image();
     map.src = 'img/map.png';
     map.onload = function () {
-        context.drawImage(map, 0, 0, 280, 310);
+        context.drawImage(map, 0, 0, 480, 640);
     }
 
 }
