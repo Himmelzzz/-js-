@@ -9,31 +9,55 @@
             width:481px;
             height:641px;
         }
-        #screen0{
-            border:1px solid black;
 
-        }
-        #screen1{
-
-
-        }
     </style>
 
 </head>
 <body>
 <div class="container">
-    <canvas id="screen0" width="480" height="640" style="position: absolute;  z-index: 1;">
+    <canvas id = "map" width="480" height="640" style="position: absolute;  z-index: 1;">
 
     </canvas>
-    <canvas id="screen1" width="480" height="640" style="position: absolute;  z-index: 2;">
+    <canvas id = "backgroud" width="480" height="640" style="position: absolute;  z-index: 2;">
 
     </canvas>
+    <canvas id = "pac" width="480" height="640" style="position: absolute;  z-index: 3;">
 
+    </canvas>
+    <canvas id = "pacman" width="480" height="640" style="position: absolute;  z-index: 4;">
+
+    </canvas>
+    <canvas id = "monsterR" width="480" height="640" style="position: absolute;  z-index: 5;">
+
+    </canvas>
+    <canvas id = "monsterP" width="480" height="640" style="position: absolute;  z-index: 6;">
+
+    </canvas>
+    <canvas id = "monsterB" width="480" height="640" style="position: absolute;  z-index: 7;">
+
+    </canvas>
+    <canvas id = "monsterY" width="480" height="640" style="position: absolute;  z-index: 8;">
+
+    </canvas>
+    <canvas id = "gameover" width="480" height="640" style="position: absolute;  z-index: 9;">
+
+    </canvas>
 </div>
+
 <script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/pac.js"></script>
 <script type="text/javascript" src="js/Wall.js"></script>
-<script type="text/javascript" src="js/Pac.js"></script>
+<script type="text/javascript" src="js/life.js"></script>
+<script type="text/javascript" src="js/score.js"></script>
+<script type="text/javascript" src="js/gameover.js"></script>
+<script type="text/javascript" src="js/createmonster.js"></script>
+<script type="text/javascript" src="js/createPac.js"></script>
+<script type="text/javascript" src="js/kill.js"></script>
+<script type="text/javascript" src="js/searchroad.js"></script>
+<script type="text/javascript" src="js/Monstermove.js"></script>
 <script type="text/javascript" src="js/Pacmove.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
 
 </body>
 </html>
